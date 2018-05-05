@@ -4,9 +4,6 @@
 ## Getting started
 
 `$ npm install react-native-zsan-qrcode --save`
-
-### Mostly automatic installation
-
 `$ react-native link react-native-zsan-qrcode`
 
 ### Manual installation
@@ -39,7 +36,12 @@
 ```javascript
 import QRCodeView from 'react-native-zsan-qrcode';
 
-// TODO: What to do with the module?
-QRCodeView;
+<QRCodeView
+    style={styles.qrCode}
+    size={200}
+    text={'1453463656456'}
+    forecolor={'black'}
+    backcolor={'white'}
+/>
 ```
   

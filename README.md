@@ -26,12 +26,12 @@
   - Add `new QRCodePackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-code'
-  	project(':react-native-code').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-code/android')
+  	include ':react-native-zsan-qrcode'
+  	project(':react-native-zsan-qrcode').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-zsan-qrcode/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-code')
+      compile project(':react-native-zsan-qrcode')
   	```
 
 

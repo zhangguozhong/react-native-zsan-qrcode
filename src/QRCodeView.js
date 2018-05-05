@@ -16,9 +16,9 @@ class QRCodeView extends Component {
         logo:PropTypes.string
     }
     static defaultProps={
-        size:100,
-        backcolor:'#FFFFFF',
-        forecolor:'#000000'
+        size:128,
+        backcolor:'white',
+        forecolor:'black'
     };
 
     constructor(props,content) {
@@ -36,7 +36,6 @@ class QRCodeView extends Component {
             forecolor:processColor(forecolor),
             backcolor:processColor(backcolor)
         });
-        console.log(nativeProps);
 
         return(
             <RCTQRCodeView ref={component => this._root = component} {...nativeProps}/>

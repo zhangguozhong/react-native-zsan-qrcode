@@ -32,5 +32,9 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
+    compile 'com.google.zxing:core:3.3.2'
+    compile 'cn.bingoogolapple:bga-qrcodecore:1.1.9@aar'
+    compile 'cn.bingoogolapple:bga-zxing:1.1.9@aar'
+    compile 'cn.bingoogolapple:bga-zbar:1.1.9@aar'
 }
   

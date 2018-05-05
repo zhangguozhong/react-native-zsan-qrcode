@@ -43,5 +43,5 @@ class QRCodeView extends Component {
     }
 }
 
-const RCTQRCodeView = requireNativeComponent('RCTQRCodeView',QRCodeView);
+const RCTQRCodeView = requireNativeComponent('RCTQRCodeView', QRCodeView);
 module.exports = QRCodeView;

@@ -4,6 +4,7 @@
 ## Getting started
 
 `$ npm install react-native-zsan-qrcode --save`
+
 `$ react-native link react-native-zsan-qrcode`
 
 ### Manual installation

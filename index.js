@@ -1,6 +1,10 @@
 
 import { NativeModules } from 'react-native';
-
 const { QRCode } = NativeModules;
 
-export default QRCode;
+import QRCodeView from './src/QRCodeView'
+
+export {
+    QRCode,
+    QRCodeView
+};

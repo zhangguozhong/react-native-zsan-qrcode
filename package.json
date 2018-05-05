@@ -1,16 +1,18 @@
 
 {
-  "name": "react-native-code",
-  "version": "1.0.0",
+  "name": "react-native-zsan-qrcode",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "qrcode",
+    "react-native-zsan-qrcode"
   ],
-  "author": "",
+  "author": "zhangguozhong",
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"

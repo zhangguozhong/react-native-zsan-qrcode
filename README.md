@@ -35,7 +35,7 @@
 
 ## Usage
 ```javascript
-import QRCodeView from 'react-native-zsan-qrcode';
+import { QRCodeView } from 'react-native-zsan-qrcode';
 
 <QRCodeView
     style={styles.qrCode}

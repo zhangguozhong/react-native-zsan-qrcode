@@ -10,8 +10,16 @@
   "keywords": [
     "react-native",
     "qrcode",
+    "react-native-qrcode",
     "react-native-zsan-qrcode"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangguozhong/react-native-zsan-qrcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangguozhong/react-native-zsan-qrcode/issues"
+  },
   "author": "zhangguozhong",
   "license": "",
   "peerDependencies": {
